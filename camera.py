@@ -51,4 +51,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("Stopping camera thread...")
         camera_thread.stop()
-        camera_thread.join() 那我这个应该怎么改
+        camera_thread.join() 
